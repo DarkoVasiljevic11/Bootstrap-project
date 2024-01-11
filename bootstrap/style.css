@@ -1,0 +1,80 @@
+
+#link{
+    font-weight: bold;
+    color: black;
+    font-size:x-large;
+}
+#crno{
+background: black;
+padding-top: 20px;
+    padding-bottom: 40px;
+}
+#plavo{
+background: blue;
+padding-top: 20px;
+    padding-bottom: 40px;
+}
+#razmak{
+    margin-left: 200px;
+}
+#tekst{
+    color: beige;
+    text-align: justify;
+}
+#logo{
+    width: 400px;
+    height: 250px;
+    margin-left:500px ;
+}
+#razmak2{
+    margin-left: 70px;
+}
+
+#infoslika{
+    width: 600px;
+    height: 350px;
+}
+#tekstinfo{
+    color: black;
+    text-align: justify;
+
+}
+@media  (max-width:768px){
+    #logo{
+        display: inline;
+       width: 100%;
+       height: auto;
+       margin-left: 10px;
+    }
+}
+#footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+#hero{
+    background-image: url("/slike/hero.jpg");
+    background-size:cover ;
+    background-repeat: no repeat;
+    background-position: center;
+
+    display: flex;
+    height: 50vh;
+    width: 100%;
+}
+#lista{
+    
+    list-style: none;
+    font-weight: bold;
+    font-size: large;
+}
+#dog_slika{
+    width: 800px;
+    height: 500px;
+}
